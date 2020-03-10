@@ -1,0 +1,228 @@
+fxyahoo_1          | Mar 02, 2020 2:15:15 PM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
+fxyahoo_1          | INFO: Publishing took ----------------------------------------------[2] ms.
+webauth_1          | Mar 02, 2020 2:15:17 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1          | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1           | Mar 02, 2020 2:15:17 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 03.02.2020 16:15
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:93)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "03.02.2020 16:15"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1           |    ... 16 more
+hurcpu_1           |
+fxyahoo_1          | Mar 02, 2020 2:15:18 PM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
+fxyahoo_1          | INFO: symbolsToQuery: "USDJPY","USDMXN","USDEUR","USDGBP","USDCNY","USDCHF","USDAUD","USDPKR","USDCAD","USDNZD",
+
+
+
+fxyahoo_1          | Mar 03, 2020 7:40:15 AM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
+fxyahoo_1          | INFO: Publishing took ----------------------------------------------[0] ms.
+webauth_1          | Mar 03, 2020 7:40:18 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1          | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1           | Mar 03, 2020 7:40:18 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 03.03.2020 09:40
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:93)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "03.03.2020 09:40"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1           |    ... 16 more
+hurcpu_1           |
+
+hurcpu_1           | Mar 03, 2020 10:58:01 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | INFO: {"requestType":"buy","commodity":"USDEUR","requestedPrice":0.3343333333333333333333333333,"requestedLot":3.0,"requestTime":"03.03.2020 12:58","tradeId":"18b60385-77c1-4b07-a518-ddefbb5dbb47"}
+hurcpu_1           | Mar 03, 2020 10:58:01 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 03.03.2020 12:58
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:97)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "03.03.2020 12:58"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1           |    ... 16 more
+hurcpu_1           |
+
+
+hurcpu_1           | Mar 03, 2020 11:26:45 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | INFO: {"requestType":"buy","commodity":"USDCNY","requestedPrice":0.5565555555555555555555555556,"requestedLot":2.0,"requestTime":"03.03.2020 15","tradeId":"7ed24d4d-a52a-415b-b0d5-a0d70c6ce601"}
+hurcpu_1           | Mar 03, 2020 11:26:45 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 03.03.2020 15
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:97)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "03.03.2020 15"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1           |    ... 16 more
+hurcpu_1           |
+
+
+webauth_1          | Mar 03, 2020 1:43:31 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1          | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1           | Mar 03, 2020 1:43:31 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | INFO: {"requestType":"buy","commodity":"USDEUR","requestedPrice":0.3343333333333333333333333333,"requestedLot":1.0,"requestTime":"03/03/2020 17:31","tradeId":"645c19e5-0fb3-4baf-8b24-817731c765aa"}
+hurcpu_1           | Mar 03, 2020 1:43:32 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 03/03/2020 17:31
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:97)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "03/03/2020 17:31"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+
+
+webauth_1          | Mar 03, 2020 2:40:02 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1          | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1           | Mar 03, 2020 2:40:02 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | INFO: {"requestType":"buy","commodity":"USDEUR","requestedPrice":0.3343333333333333333333333333,"requestedLot":1.0,"requestTime":"04/03/2020 11:24","tradeId":"e40eabcf-f44f-4297-a8cc-069105c130be"}
+hurcpu_1           | Mar 03, 2020 2:40:02 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1           | SEVERE: null
+hurcpu_1           | com.google.gson.JsonSyntaxException: 04/03/2020 11:24
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1           |    at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1           |    at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1           |    at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1           |    at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1           |    at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:97)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1           |    at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1           |    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1           |    at java.lang.Thread.run(Thread.java:748)
+hurcpu_1           | Caused by: java.text.ParseException: Unparseable date: "04/03/2020 11:24"
+hurcpu_1           |    at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1           |    at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1           |    ... 16 more
+hurcpu_1           |
+
+
+
+ Mar 10, 2020 12:08:00 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1    | SEVERE: null
+hurcpu_1    | com.google.gson.JsonSyntaxException: 10/03/2020 14:08
+hurcpu_1    |   at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:107)
+hurcpu_1    |   at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:82)
+hurcpu_1    |   at com.google.gson.DefaultDateTypeAdapter.deserialize(DefaultDateTypeAdapter.java:35)
+hurcpu_1    |   at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+hurcpu_1    |   at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:103)
+hurcpu_1    |   at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:196)
+hurcpu_1    |   at com.google.gson.Gson.fromJson(Gson.java:810)
+hurcpu_1    |   at com.google.gson.Gson.fromJson(Gson.java:775)
+hurcpu_1    |   at com.google.gson.Gson.fromJson(Gson.java:724)
+hurcpu_1    |   at com.google.gson.Gson.fromJson(Gson.java:696)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest.fromJson(TradeRequest.java:103)
+hurcpu_1    |   at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:93)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:144)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:99)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1    |   at java.lang.Thread.run(Thread.java:748)
+hurcpu_1    | Caused by: java.text.ParseException: Unparseable date: "10/03/2020 14:08"
+hurcpu_1    |   at java.text.DateFormat.parse(DateFormat.java:366)
+hurcpu_1    |   at com.google.gson.DefaultDateTypeAdapter.deserializeToDate(DefaultDateTypeAdapter.java:105)
+hurcpu_1    |   ... 16 more
+
+
+fxyahoo_1   | Mar 10, 2020 1:26:33 PM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
+fxyahoo_1   | INFO: Publishing took ----------------------------------------------[1] ms.
+webauth_1   | Mar 10, 2020 1:26:33 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1    | Mar 10, 2020 1:26:33 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1    | INFO: {"requestType":"sell","commodity":"USDGBP","requestedPrice":0.4444444444444444444444444444,"requestedLot":3.0,"requestTime":"10/03/2020 13:49","tradeId":"0e7a88c6-e228-4b7e-8fe3-c7deb49925ec"}
+webauth_1   | Mar 10, 2020 1:26:33 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: resource u:[svc] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+webauth_1   | Mar 10, 2020 1:26:33 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: resource u:[svc] v:[/] r:[exchange] p:[write] :n[07e09482-7d84-4ee3-9cf7-7c65b7dad259_off] -> allow.
+fxyahoo_1   | Mar 10, 2020 1:26:36 PM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
+fxyahoo_1   | INFO: symbolsToQuery: "USDJPY","USDMXN","USDEUR","USDGBP","USDCNY","USDCHF","USDAUD","USDPKR","USDCAD","USDNZD",
+mqstats_1   | Mar 10, 2020 1:26:36 PM com.computedsynergy.hurtrade.collectors.RabbitMqStats lambda$queryAndPublish$2
+mqstats_1   | INFO: Authenticating for response: Response{protocol=http/1.1, code=401, message=Unauthorized, url=http://rabbitmq:15672/api/connections}
+mqstats_1   | Mar 10, 2020 1:26:36 PM com.computedsynergy.hurtrade.collectors.RabbitMqStats lambda$queryAndPublish$2
+mqstats_1   | INFO: Challenges: [Basic realm="RabbitMQ Management"]
+
+
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+# our comment is here
+echo "1 COPY fxyahoo"
+cp /var/www/html/java/fxyahoo/target/fxyahoo-1.0-jar-with-dependencies.jar /var/www/html/java_github/
+echo "1 COPY hurcpu"
+cp /var/www/html/java/hurcpu/target/hurcpu-1.0-jar-with-dependencies.jar /var/www/html/java_github/
+echo "1 COPY webauth"
+cp /var/www/html/java/webauth/target/webauth-1.0-jar-with-dependencies.jar /var/www/html/java_github/
+echo "1 COPY mqstats"
+cp /var/www/html/java/mqstats/target/mqstats-1.0-jar-with-dependencies.jar /var/www/html/java_github/

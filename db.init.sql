@@ -347,34 +347,11 @@ VALUES(1, 10);
 
 INSERT INTO commodities
 (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(8, 'USDPKR', 'FX', NULL, NULL, 100000);
+VALUES(1, 'USDPKR', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities
 (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(9, 'USDJPY', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(10, 'USDEUR', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(7, 'USDGBP', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(11, 'USDAUD', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(12, 'USDCHF', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(14, 'USDCAD', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(16, 'USDMXN', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(17, 'USDCNY', 'FX', NULL, NULL, 100000);
-INSERT INTO commodities
-(id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(18, 'USDNZD', 'FX', NULL, NULL, 100000);
+VALUES(2, 'USDJPY', 'FX', NULL, NULL, 100000);
+
 
 
 INSERT INTO commodities_users

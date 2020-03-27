@@ -346,271 +346,271 @@ VALUES(1, 10);
 
 
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(1, ''FT:141'', ''FX'', NULL, NULL, 100000);
+VALUES(1, 'FT:141', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(2, ''FT:140'', ''FX'', NULL, NULL, 100000);
+VALUES(2, 'FT:140', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(3, ''FT:142'', ''FX'', NULL, NULL, 100000);
+VALUES(3, 'FT:142', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(4, ''FT:139'', ''FX'', NULL, NULL, 100000);
+VALUES(4, 'FT:139', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(5, ''audcad'', ''FX'', NULL, NULL, 100000);
+VALUES(5, 'audcad', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(6, ''audchf'', ''FX'', NULL, NULL, 100000);
+VALUES(6, 'audchf', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(7, ''audnzd'', ''FX'', NULL, NULL, 100000);
+VALUES(7, 'audnzd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(8, ''audjpy'', ''FX'', NULL, NULL, 100000);
+VALUES(8, 'audjpy', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(9, ''usdsgd'', ''FX'', NULL, NULL, 100000);
+VALUES(9, 'usdsgd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(10, ''eurusd'', ''FX'', NULL, NULL, 100000);
+VALUES(10, 'eurusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(11, ''gbpusd'', ''FX'', NULL, NULL, 100000);
+VALUES(11, 'gbpusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(12, ''usdjpy'', ''FX'', NULL, NULL, 100000);
+VALUES(12, 'usdjpy', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(13, ''usdchf'', ''FX'', NULL, NULL, 100000);
+VALUES(13, 'usdchf', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(14, ''usdcad'', ''FX'', NULL, NULL, 100000);
+VALUES(14, 'usdcad', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(15, ''audusd'', ''FX'', NULL, NULL, 100000);
+VALUES(15, 'audusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(16, ''nzdusd'', ''FX'', NULL, NULL, 100000);
+VALUES(16, 'nzdusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(17, ''eurgbp'', ''FX'', NULL, NULL, 100000);
+VALUES(17, 'eurgbp', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(18, ''eurchf'', ''FX'', NULL, NULL, 100000);
+VALUES(18, 'eurchf', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(19, ''eurjpy'', ''FX'', NULL, NULL, 100000);
+VALUES(19, 'eurjpy', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(20, ''euraud'', ''FX'', NULL, NULL, 100000);
+VALUES(20, 'euraud', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(21, ''eurcad'', ''FX'', NULL, NULL, 100000);
+VALUES(21, 'eurcad', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(22, ''gbpaud'', ''FX'', NULL, NULL, 100000);
+VALUES(22, 'gbpaud', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(23, ''gbpcad'', ''FX'', NULL, NULL, 100000);
+VALUES(23, 'gbpcad', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(24, ''gbpchf'', ''FX'', NULL, NULL, 100000);
+VALUES(24, 'gbpchf', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(25, ''gbpjpy'', ''FX'', NULL, NULL, 100000);
+VALUES(25, 'gbpjpy', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(26, ''nzdcad'', ''FX'', NULL, NULL, 100000);
+VALUES(26, 'nzdcad', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(27, ''nzdchf'', ''FX'', NULL, NULL, 100000);
+VALUES(27, 'nzdchf', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(28, ''nzdjpy'', ''FX'', NULL, NULL, 100000);
+VALUES(28, 'nzdjpy', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(29, ''usddkk'', ''FX'', NULL, NULL, 100000);
+VALUES(29, 'usddkk', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(30, ''usdmxn'', ''FX'', NULL, NULL, 100000);
+VALUES(30, 'usdmxn', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(31, ''usdnok'', ''FX'', NULL, NULL, 100000);
+VALUES(31, 'usdnok', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(32, ''usdrub'', ''FX'', NULL, NULL, 100000);
+VALUES(32, 'usdrub', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(33, ''usdsek'', ''FX'', NULL, NULL, 100000);
+VALUES(33, 'usdsek', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(34, ''usdtry'', ''FX'', NULL, NULL, 100000);
+VALUES(34, 'usdtry', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(35, ''silver'', ''MT'', NULL, NULL, 100000);
+VALUES(35, 'silver', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(36, ''gold'', ''MT'', NULL, NULL, 100000);
+VALUES(36, 'gold', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(37, ''_mmm'', ''FX'', NULL, NULL, 100000);
+VALUES(37, '_mmm', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(38, ''_alibaba'', ''FX'', NULL, NULL, 100000);
+VALUES(38, '_alibaba', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(39, ''_aa'', ''FX'', NULL, NULL, 100000);
+VALUES(39, '_aa', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(40, ''_amzn'', ''FX'', NULL, NULL, 100000);
+VALUES(40, '_amzn', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(41, ''_axp'', ''FX'', NULL, NULL, 100000);
+VALUES(41, '_axp', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(42, ''_aapl'', ''FX'', NULL, NULL, 100000);
+VALUES(42, '_aapl', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(43, ''_t'', ''FX'', NULL, NULL, 100000);
+VALUES(43, '_t', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(44, ''_bac'', ''FX'', NULL, NULL, 100000);
+VALUES(44, '_bac', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(45, ''_ba'', ''FX'', NULL, NULL, 100000);
+VALUES(45, '_ba', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(46, ''_cat'', ''FX'', NULL, NULL, 100000);
+VALUES(46, '_cat', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(47, ''_cvx'', ''FX'', NULL, NULL, 100000);
+VALUES(47, '_cvx', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(48, ''_ko'', ''FX'', NULL, NULL, 100000);
+VALUES(48, '_ko', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(49, ''_csco'', ''FX'', NULL, NULL, 100000);
+VALUES(49, '_csco', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(50, ''_dis'', ''FX'', NULL, NULL, 100000);
+VALUES(50, '_dis', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(51, ''_ebay'', ''FX'', NULL, NULL, 100000);
+VALUES(51, '_ebay', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(52, ''_xom'', ''FX'', NULL, NULL, 100000);
+VALUES(52, '_xom', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(53, ''_fb'', ''FX'', NULL, NULL, 100000);
+VALUES(53, '_fb', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(54, ''_ge'', ''FX'', NULL, NULL, 100000);
+VALUES(54, '_ge', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(55, ''_goog'', ''FX'', NULL, NULL, 100000);
+VALUES(55, '_goog', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(56, ''_ibm'', ''FX'', NULL, NULL, 100000);
+VALUES(56, '_ibm', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(57, ''_hpq'', ''FX'', NULL, NULL, 100000);
+VALUES(57, '_hpq', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(58, ''_intc'', ''FX'', NULL, NULL, 100000);
+VALUES(58, '_intc', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(59, ''_jnj'', ''FX'', NULL, NULL, 100000);
+VALUES(59, '_jnj', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(60, ''_jpm'', ''FX'', NULL, NULL, 100000);
+VALUES(60, '_jpm', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(61, ''_mcd'', ''FX'', NULL, NULL, 100000);
+VALUES(61, '_mcd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(62, ''_msft'', ''FX'', NULL, NULL, 100000);
+VALUES(62, '_msft', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(63, ''_netflix'', ''FX'', NULL, NULL, 100000);
+VALUES(63, '_netflix', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(64, ''_pfe'', ''FX'', NULL, NULL, 100000);
+VALUES(64, '_pfe', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(65, ''_pg'', ''FX'', NULL, NULL, 100000);
+VALUES(65, '_pg', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(66, ''_sony'', ''FX'', NULL, NULL, 100000);
+VALUES(66, '_sony', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(67, ''_yhoo'', ''FX'', NULL, NULL, 100000);
+VALUES(67, '_yhoo', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(68, ''_tesla'', ''FX'', NULL, NULL, 100000);
+VALUES(68, '_tesla', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(69, ''_vz'', ''FX'', NULL, NULL, 100000);
+VALUES(69, '_vz', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(70, ''_wmt'', ''FX'', NULL, NULL, 100000);
+VALUES(70, '_wmt', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(71, ''_bmw'', ''FX'', NULL, NULL, 100000);
+VALUES(71, '_bmw', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(72, ''ng'', ''FX'', NULL, NULL, 100000);
+VALUES(72, 'ng', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(73, ''ta35'', ''FX'', NULL, NULL, 100000);
+VALUES(73, 'ta35', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(74, ''tadawul'', ''FX'', NULL, NULL, 100000);
+VALUES(74, 'tadawul', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(75, ''btceur'', ''FX'', NULL, NULL, 100000);
+VALUES(75, 'btceur', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(76, ''btcusd'', ''FX'', NULL, NULL, 100000);
+VALUES(76, 'btcusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(77, ''_gazp'', ''FX'', NULL, NULL, 100000);
+VALUES(77, '_gazp', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(78, ''_yndx'', ''FX'', NULL, NULL, 100000);
+VALUES(78, '_yndx', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(79, ''uso'', ''FX'', NULL, NULL, 100000);
+VALUES(79, 'uso', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(80, ''uco'', ''FX'', NULL, NULL, 100000);
+VALUES(80, 'uco', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(81, ''adobe'', ''FX'', NULL, NULL, 100000);
+VALUES(81, 'adobe', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(82, ''_nike'', ''FX'', NULL, NULL, 100000);
+VALUES(82, '_nike', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(83, ''ltcusd'', ''FX'', NULL, NULL, 100000);
+VALUES(83, 'ltcusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(84, ''dshusd'', ''FX'', NULL, NULL, 100000);
+VALUES(84, 'dshusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(85, ''ethusd'', ''FX'', NULL, NULL, 100000);
+VALUES(85, 'ethusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(86, ''xrpusd'', ''FX'', NULL, NULL, 100000);
+VALUES(86, 'xrpusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(87, ''btcusd2'', ''FX'', NULL, NULL, 100000);
+VALUES(87, 'btcusd2', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(88, ''bchusd'', ''FX'', NULL, NULL, 100000);
+VALUES(88, 'bchusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(89, ''etcusd'', ''FX'', NULL, NULL, 100000);
+VALUES(89, 'etcusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(90, ''_lm'', ''FX'', NULL, NULL, 100000);
+VALUES(90, '_lm', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(91, ''_nvidia'', ''FX'', NULL, NULL, 100000);
+VALUES(91, '_nvidia', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(92, ''bcheur'', ''FX'', NULL, NULL, 100000);
+VALUES(92, 'bcheur', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(93, ''etheur'', ''FX'', NULL, NULL, 100000);
+VALUES(93, 'etheur', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(94, ''ton2'', ''FX'', NULL, NULL, 100000);
+VALUES(94, 'ton2', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(95, ''dsheur'', ''FX'', NULL, NULL, 100000);
+VALUES(95, 'dsheur', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(96, ''_pm'', ''FX'', NULL, NULL, 100000);
+VALUES(96, '_pm', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(97, ''btgusd'', ''FX'', NULL, NULL, 100000);
+VALUES(97, 'btgusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(98, ''_lkoh'', ''FX'', NULL, NULL, 100000);
+VALUES(98, '_lkoh', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(99, ''_rosn'', ''FX'', NULL, NULL, 100000);
+VALUES(99, '_rosn', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(100, ''xmrusd'', ''FX'', NULL, NULL, 100000);
+VALUES(100, 'xmrusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(101, ''xvgusd'', ''FX'', NULL, NULL, 100000);
+VALUES(101, 'xvgusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(102, ''xemusd'', ''FX'', NULL, NULL, 100000);
+VALUES(102, 'xemusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(103, ''qtmusd'', ''FX'', NULL, NULL, 100000);
+VALUES(103, 'qtmusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(104, ''gntusd'', ''FX'', NULL, NULL, 100000);
+VALUES(104, 'gntusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(105, ''trxusd'', ''FX'', NULL, NULL, 100000);
+VALUES(105, 'trxusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(106, ''bist100'', ''FX'', NULL, NULL, 100000);
+VALUES(106, 'bist100', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(107, ''_baidu'', ''FX'', NULL, NULL, 100000);
+VALUES(107, '_baidu', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(108, ''eursgd'', ''FX'', NULL, NULL, 100000);
+VALUES(108, 'eursgd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(109, ''eurex'', ''FX'', NULL, NULL, 100000);
+VALUES(109, 'eurex', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(110, ''_uber'', ''FX'', NULL, NULL, 100000);
+VALUES(110, '_uber', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(111, ''pepsico'', ''FX'', NULL, NULL, 100000);
+VALUES(111, 'pepsico', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(112, ''zs'', ''FX'', NULL, NULL, 100000);
+VALUES(112, 'zs', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(113, ''ct'', ''FX'', NULL, NULL, 100000);
+VALUES(113, 'ct', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(114, ''zc'', ''FX'', NULL, NULL, 100000);
+VALUES(114, 'zc', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(115, ''nikkei'', ''FX'', NULL, NULL, 100000);
+VALUES(115, 'nikkei', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(116, ''nasdaq'', ''FX'', NULL, NULL, 100000);
+VALUES(116, 'nasdaq', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(117, ''dow'', ''FX'', NULL, NULL, 100000);
+VALUES(117, 'dow', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(118, ''sp500'', ''FX'', NULL, NULL, 100000);
+VALUES(118, 'sp500', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(119, ''dax'', ''FX'', NULL, NULL, 100000);
+VALUES(119, 'dax', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(120, ''ftse'', ''FX'', NULL, NULL, 100000);
+VALUES(120, 'ftse', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(121, ''mib'', ''FX'', NULL, NULL, 100000);
+VALUES(121, 'mib', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(122, ''asx'', ''FX'', NULL, NULL, 100000);
+VALUES(122, 'asx', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(123, ''volsp500'', ''FX'', NULL, NULL, 100000);
+VALUES(123, 'volsp500', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(124, ''jse'', ''FX'', NULL, NULL, 100000);
+VALUES(124, 'jse', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(125, ''iceusd'', ''FX'', NULL, NULL, 100000);
+VALUES(125, 'iceusd', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(126, ''kc'', ''FX'', NULL, NULL, 100000);
+VALUES(126, 'kc', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(127, ''sb'', ''FX'', NULL, NULL, 100000);
+VALUES(127, 'sb', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(128, ''cac40'', ''FX'', NULL, NULL, 100000);
+VALUES(128, 'cac40', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(129, ''ibex'', ''FX'', NULL, NULL, 100000);
+VALUES(129, 'ibex', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(130, ''hshares'', ''FX'', NULL, NULL, 100000);
+VALUES(130, 'hshares', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(131, ''hang_sen'', ''FX'', NULL, NULL, 100000);
+VALUES(131, 'hang_sen', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(132, ''brent'', ''FX'', NULL, NULL, 100000);
+VALUES(132, 'brent', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(133, ''wti'', ''FX'', NULL, NULL, 100000);
+VALUES(133, 'wti', 'FX', NULL, NULL, 100000);
 
 
 INSERT INTO commodities_users

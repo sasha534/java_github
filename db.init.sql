@@ -606,7 +606,7 @@ VALUES(129, 'ibex', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
 VALUES(130, 'hshares', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
-VALUES(131, 'hang_sen', 'FX', NULL, NULL, 100000);
+VALUES(131, 'hang_seng', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)
 VALUES(132, 'brent', 'FX', NULL, NULL, 100000);
 INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lotsize)

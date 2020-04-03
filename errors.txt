@@ -1,3 +1,5 @@
+Дім, запис працює, зараз перевіряю як буде вести себе jar. Та планую сьогодні запушити все на gitlab. С записом також довелось повозитись. Код став дуже великий та складний)))Отправка...все зібралосьОтправка...тест успішний) перейду до тестування на клієнті під віндовс
+
 fxyahoo_1          | Mar 02, 2020 2:15:15 PM com.computedsynergy.hurtrade.fxyahoo.FxYahoo run
 fxyahoo_1          | INFO: Publishing took ----------------------------------------------[2] ms.
 webauth_1          | Mar 02, 2020 2:15:17 PM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2

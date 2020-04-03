@@ -1,3 +1,57 @@
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1     | INFO: {"requestType":"buy","commodity":"usdcad","requestedPrice":1.41358,"requestedLot":1.0,"requestTime":"03/04/2020 16:36","tradeId":"0e0a6835-5b8f-4478-8b79-108288b6d3f1"}
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position setOrderState
+hurcpu_1     | INFO: [0] 7911969e-e8bd-4b1f-9c83-c32075afeae1 [pending_dealer_open]
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel getNextSerial
+hurcpu_1     | SEVERE: null
+hurcpu_1     | java.lang.NullPointerException
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel.getNextSerial(SerialsModel.java:45)
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.util.GeneralUtil.GetNextFriendlyOrderId(GeneralUtil.java:54)
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.<init>(Position.java:90)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.processTradeRequest(ClientRequestConsumer.java:517)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:102)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1     |  at java.lang.Thread.run(Thread.java:748)
+hurcpu_1     |
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position setOrderState
+hurcpu_1     | INFO: [0] 7911969e-e8bd-4b1f-9c83-c32075afeae1 [pending_dealer_open]
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel getNextSerial
+hurcpu_1     | SEVERE: null
+hurcpu_1     | java.lang.NullPointerException
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel.getNextSerial(SerialsModel.java:45)
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.util.GeneralUtil.GetNextFriendlyOrderId(GeneralUtil.java:54)
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.<init>(Position.java:90)
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.clone(Position.java:97)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.processTradeRequest(ClientRequestConsumer.java:538)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:102)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1     |  at java.lang.Thread.run(Thread.java:748)
+hurcpu_1     |
+hurcpu_1     | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer processTradeRequest
+hurcpu_1     | SEVERE: null
+hurcpu_1     | java.lang.NullPointerException
+hurcpu_1     |  at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.processQuote(Position.java:123)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.processTradeRequest(ClientRequestConsumer.java:541)
+hurcpu_1     |  at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:102)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+hurcpu_1     |  at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1     |  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1     |  at java.lang.Thread.run(Thread.java:748)
+hurcpu_1     |
+mqstats_1    | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.collectors.RabbitMqStats lambda$queryAndPublish$2
+mqstats_1    | INFO: Authenticating for response: Response{protocol=http/1.1, code=401, message=Unauthorized, url=http://rabbitmq:15672/api/connections}
+mqstats_1    | Apr 03, 2020 1:36:33 PM com.computedsynergy.hurtrade.collectors.RabbitMqStats lambda$queryAndPublish$2
+mqstats_1    | INFO: Challenges: [Basic realm="RabbitMQ Management"]
+
+
+
 hurcpu_1     | Apr 03, 2020 6:59:08 AM com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position setOrderState
 hurcpu_1     | INFO: [0] fd524936-0824-4fff-b6d5-e3aec0e9fa19 [pending_dealer_open]
 hurcpu_1     | Apr 03, 2020 6:59:08 AM com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel getNextSerial

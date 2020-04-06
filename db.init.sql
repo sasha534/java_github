@@ -613,6 +613,10 @@ INSERT INTO commodities (id, commodityname, commoditytype, created, modified, lo
 VALUES(133, 'wti', 'FX', NULL, NULL, 100000);
 
 
+INSERT INTO ledgers (id, user_id, deposit, withdrawal, credit, debit, created, description)
+VALUES(1, 9, 10000000, NULL, NULL, NULL, NULL, NULL);
+
+
 INSERT INTO commodities_users
 (commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
 VALUES(7, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);

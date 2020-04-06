@@ -614,7 +614,7 @@ VALUES(133, 'wti', 'FX', NULL, NULL, 100000);
 
 
 INSERT INTO ledgers (id, user_id, deposit, withdrawal, credit, debit, created, description)
-VALUES(1, 9, 10000000, NULL, NULL, NULL, NULL, NULL);
+VALUES(1, 9, 10000000000, NULL, NULL, NULL, NULL, NULL);
 
 
 INSERT INTO commodities_users

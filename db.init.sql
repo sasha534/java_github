@@ -1401,7 +1401,6 @@ INSERT INTO commodities_users
 VALUES(133, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
 
 
-
 INSERT INTO schedules
 (id, dayofweek, schedule, ended, created)
 VALUES(2, 2, '[[0,86400000]]', NULL, NULL);
@@ -1423,3 +1422,7 @@ VALUES(7, 7, '[[0,86400000]]', NULL, NULL);
 INSERT INTO schedules
 (id, dayofweek, schedule, ended, created)
 VALUES(1, 1, '[[0,86400000]]', NULL, NULL);
+
+
+INSERT INTO ledgers (id, user_id, deposit, withdrawal, credit, debit, created, description)
+VALUES(1, 9, 9000000000000, 0, 0, 0, NULL, NULL);

@@ -1424,5 +1424,6 @@ INSERT INTO schedules
 VALUES(1, 1, '[[0,86400000]]', NULL, NULL);
 
 
-INSERT INTO ledgers (id, user_id, deposit, withdrawal, credit, debit, created, description)
+INSERT INTO ledgers
+(id, user_id, deposit, withdrawal, credit, debit, created, description)
 VALUES(1, 9, 9000000000000, 0, 0, 0, NULL, NULL);

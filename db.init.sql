@@ -872,6 +872,537 @@ VALUES(76, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
 INSERT INTO commodities_users
 (commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
 VALUES(77, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(78, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(79, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(80, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(81, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(82, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(83, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(84, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(85, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(86, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(87, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(88, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(89, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(90, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(91, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(92, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(93, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(94, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(95, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(96, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(97, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(98, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(99, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(100, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(101, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(102, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(103, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(104, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(105, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(106, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(107, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(108, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(109, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(110, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(111, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(112, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(113, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(114, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(115, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(116, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(117, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(118, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(119, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(120, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(121, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(122, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(123, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(124, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(125, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(126, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(127, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(128, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(129, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(130, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(131, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(132, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(133, 9, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(1, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(2, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(3, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(4, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(5, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(6, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(19, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(20, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(21, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(22, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(23, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(24, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(25, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(26, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(27, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(28, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(29, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(30, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(31, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(32, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(33, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(34, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(35, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(36, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(37, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(38, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(39, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(40, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(41, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(42, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(43, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(44, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(45, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(46, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(47, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(48, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(49, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(50, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(51, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(52, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(53, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(54, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(55, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(56, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(57, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(58, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(59, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(60, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(61, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(62, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(63, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(64, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(65, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(66, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(67, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(68, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(69, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(70, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(71, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(72, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(73, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(74, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(75, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(76, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(77, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(78, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(79, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(80, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(81, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(82, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(83, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(84, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(85, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(86, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(87, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(88, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(89, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(90, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(91, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(92, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(93, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(94, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(95, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(96, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(97, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(98, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(99, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(100, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(101, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(102, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(103, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(104, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(105, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(106, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(107, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(108, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(109, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(110, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(111, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(112, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(113, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(114, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(115, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(116, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(117, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(118, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(119, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(120, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(121, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(122, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(123, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(124, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(125, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(126, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(127, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(128, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(129, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(130, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(131, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(132, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
+INSERT INTO commodities_users
+(commodity_id, user_id, spread, ratio, fee, commission, minamount, maxamount)
+VALUES(133, 10, 0.0005, 0.01, 15, 0.02, 0.01, 2.0);
 
 
 

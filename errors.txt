@@ -1,3 +1,60 @@
+{"4c8ee050-6835-47eb-adb0-232ef2fdfa89":{"orderType":"sell","commodity":"USDGBP","amount":1.0,"currentPl":-50.00000000000000000000000000000000000000000000000000000,"orderId":"4c8ee050-6835-47eb-adb0-232ef2fdfa89","openPrice":0.4444444444444444444444444444444444444444444444444444,"orderState":"pending_dealer_open","createdat":"Apr 7, 2020 3:45:07 AM","friendlyorderid":0,"user_id":9,"usedMargin":1000.000,"ratio":0.01,"_user":{"id":9,"username":"trader","pass":"trader","locked":false,"usertype":"trader","phonenumber":"+12345","fullname":"trader test","email":"trader@test.org","useruuid":"1f177ca4-92e5-44d8-9df0-fb91e58096cf","authtags":"","liquidate":true,"userOffice":{"id":1,"officename":"MM","officeuuid":"07e09482-7d84-4ee3-9cf7-7c65b7dad259"},"tagsList":[],"resourcesList":[]},"_wasPendingClose":false},"8aee371f-17be-4087-93dd-7f0a07ed42d2":{"orderType":"sell","commodity":"USDCNY","amount":2.0,"currentPl":-200.00000000000000000000000000000000000000000000000000000,"orderId":"8aee371f-17be-4087-93dd-7f0a07ed42d2","openPrice":0.5555555555555555555555555555555555555555555555555555,"orderState":"pending_dealer_open","createdat":"Apr 7, 2020 3:55:42 AM","friendlyorderid":0,"user_id":9,"usedMargin":2000.000,"ratio":0.01,"_user":{"id":9,"username":"trader","pass":"trader","locked":false,"usertype":"trader","phonenumber":"+12345","fullname":"trader test","email":"trader@test.org","useruuid":"1f177ca4-92e5-44d8-9df0-fb91e58096cf","authtags":"","liquidate":true,"userOffice":{"id":1,"officename":"MM","officeuuid":"07e09482-7d84-4ee3-9cf7-7c65b7dad259"},"tagsList":[],"resourcesList":[]},"_wasPendingClose":false}}
+
+////////////////WORKING CLIENT????????
+pgadmin_container | ::ffff:172.18.0.1 - - [07/Apr/2020:03:45:07 +0000] "GET /dashboard/dashboard_stats/1/12407?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1" 200 252 "http://localhost:5050/browser/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -----------------------RESOURCE POST
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -------------username=trader
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -------------vhost=/
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -------------resource=exchange
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -------------name=1f177ca4-92e5-44d8-9df0-fb91e58096cf_client
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: -------------permission=write
+webauth_1   | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.webauth.Webauth lambda$main$2
+webauth_1   | INFO: resource u:[trader] v:[/] r:[exchange] p:[write] :n[1f177ca4-92e5-44d8-9df0-fb91e58096cf_client] -> allow.
+hurcpu_1    | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
+hurcpu_1    | INFO: {"requestType":"sell","commodity":"USDGBP","requestedPrice":0.4444444444444444444444444444,"requestedLot":1.0,"requestTime":"07/04/2020 6:45","tradeId":"ac38f167-408d-45b5-9ac3-a696915dad72"}
+hurcpu_1    | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position setOrderState
+hurcpu_1    | INFO: [0] 4c8ee050-6835-47eb-adb0-232ef2fdfa89 [pending_dealer_open]
+hurcpu_1    | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel getNextSerial
+hurcpu_1    | SEVERE: null
+hurcpu_1    | java.lang.NullPointerException
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel.getNextSerial(SerialsModel.java:45)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.util.GeneralUtil.GetNextFriendlyOrderId(GeneralUtil.java:54)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.<init>(Position.java:90)
+hurcpu_1    |   at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.processTradeRequest(ClientRequestConsumer.java:528)
+hurcpu_1    |   at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:102)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1    |   at java.lang.Thread.run(Thread.java:748)
+hurcpu_1    |
+hurcpu_1    | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position setOrderState
+hurcpu_1    | INFO: [0] 4c8ee050-6835-47eb-adb0-232ef2fdfa89 [pending_dealer_open]
+hurcpu_1    | Apr 07, 2020 3:45:07 AM com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel getNextSerial
+hurcpu_1    | SEVERE: null
+hurcpu_1    | java.lang.NullPointerException
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.models.impl.SerialsModel.getNextSerial(SerialsModel.java:45)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.util.GeneralUtil.GetNextFriendlyOrderId(GeneralUtil.java:54)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.<init>(Position.java:90)
+hurcpu_1    |   at com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Position.clone(Position.java:97)
+hurcpu_1    |   at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.processTradeRequest(ClientRequestConsumer.java:538)
+hurcpu_1    |   at com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer.handleDelivery(ClientRequestConsumer.java:102)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+hurcpu_1    |   at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+hurcpu_1    |   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+hurcpu_1    |   at java.lang.Thread.run(Thread.java:748)
+hurcpu_1    |
+////////////////WORKING CLIENT????????
+
+
+
 /////////
 hurcpu_1     | Apr 06, 2020 11:08:49 PM com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer handleDelivery
 hurcpu_1     | INFO: {"requestType":"buy","commodity":"_lm","requestedPrice":366.8205,"requestedLot":1.0,"requestTime":"07/04/2020 2:08","tradeId":"8dea2898-e817-4caf-99a3-11c2a06539ce"}

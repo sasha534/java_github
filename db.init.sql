@@ -1430,4 +1430,4 @@ VALUES(1, 9, 900000000012, 0, 0, 0, NULL, NULL);
 
 INSERT INTO serials
 (sname, svalue)
-VALUES(positions, 0);
+VALUES('positions', 0);

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.computedsynergy.hurtrade.webauth.Webauth</OriginalElement>
+  <nodes>
+    <node x="987.6078282828281" y="624.5">com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Office</node>
+    <node x="1777.482828282828" y="1518.0">com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil</node>
+    <node x="2963.232828282828" y="0.0">com.computedsynergy.hurtrade.sharedcomponents.amqp.CustomDefaultConsumer</node>
+    <node x="687.2328282828281" y="2191.0">com.computedsynergy.hurtrade.sharedcomponents.models.impl.UserModel</node>
+    <node x="1779.232828282828" y="1126.0">com.computedsynergy.hurtrade.sharedcomponents.util.ObjectUtils</node>
+    <node x="528.0386503928165" y="1101.5">com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase</node>
+    <node x="423.2328282828281" y="2227.0">com.computedsynergy.hurtrade.sharedcomponents.models.impl.OfficeModel</node>
+    <node x="1006.2328282828281" y="933.5">com.computedsynergy.hurtrade.sharedcomponents.models.pojos.User</node>
+    <node x="411.71199494949474" y="0.0">com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions</node>
+    <node x="0.0" y="1053.5">com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase</node>
+    <node x="452.71199494949474" y="662.0">com.computedsynergy.hurtrade.sharedcomponents.db</node>
+    <node x="38.5" y="564.0">com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpConnectionFactory</node>
+    <node x="2531.232828282828" y="2071.0">com.computedsynergy.hurtrade.sharedcomponents.util.MqNamingUtil</node>
+    <node x="2122.232828282828" y="874.0">com.computedsynergy.hurtrade.sharedcomponents.util.Constants</node>
+    <node x="766.372488776655" y="3131.0">com.computedsynergy.hurtrade.webauth.Webauth</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="56.33333333333337" y="-64.5" />
+      <point x="668.8719837261499" y="834.0" />
+      <point x="575.2119949494947" y="834.0" />
+      <point x="0.0" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.db" target="com.computedsynergy.hurtrade.sharedcomponents.db">
+      <point x="-42.0" y="27.0" />
+      <point x="466.71199494949474" y="736.0" />
+      <point x="432.71199494949474" y="736.0" />
+      <point x="432.71199494949474" y="689.0" />
+      <point x="-56.0" y="-0.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpConnectionFactory" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="0.0" y="-125.0" />
+      <point x="196.0" y="544.0" />
+      <point x="444.4119949494948" y="544.0" />
+      <point x="-130.79999999999995" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.db" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="0.0" y="-27.0" />
+      <point x="508.71199494949474" y="544.0" />
+      <point x="509.81199494949465" y="544.0" />
+      <point x="-65.40000000000009" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.User" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Office">
+      <point x="188.25" y="-232.5" />
+      <point x="1570.982828282828" y="844.0" />
+      <point x="1175.732828282828" y="844.0" />
+      <point x="80.625" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.util.MqNamingUtil">
+      <point x="177.72727272727275" y="-76.5" />
+      <point x="1139.5997615039278" y="3111.0" />
+      <point x="2724.732828282828" y="3111.0" />
+      <point x="0.0" y="208.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.UserModel" target="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase">
+      <point x="0.0" y="-88.5" />
+      <point x="836.2328282828281" y="1478.0" />
+      <point x="675.9136503928165" y="1478.0" />
+      <point x="63.375" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.User">
+      <point x="-186.375" y="-761.5" />
+      <point x="1839.607828282828" y="1498.0" />
+      <point x="1633.732828282828" y="1498.0" />
+      <point x="251.0" y="232.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Office">
+      <point x="0.0" y="-76.5" />
+      <point x="961.872488776655" y="3061.0" />
+      <point x="995.7328282828281" y="3061.0" />
+      <point x="995.7328282828281" y="854.0" />
+      <point x="1068.232828282828" y="854.0" />
+      <point x="-26.875" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="142.18181818181824" y="-76.5" />
+      <point x="1104.0543069584733" y="3101.0" />
+      <point x="2520.732828282828" y="3101.0" />
+      <point x="2520.732828282828" y="534.0" />
+      <point x="706.0119949494947" y="534.0" />
+      <point x="130.79999999999995" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil" target="com.computedsynergy.hurtrade.sharedcomponents.util.ObjectUtils">
+      <point x="-62.125" y="-761.5" />
+      <point x="1963.857828282828" y="1498.0" />
+      <point x="1940.232828282828" y="1498.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.db">
+      <point x="-177.72727272727275" y="-76.5" />
+      <point x="784.1452160493823" y="3111.0" />
+      <point x="412.7328282828282" y="3111.0" />
+      <point x="412.7328282828282" y="854.0" />
+      <point x="494.71199494949474" y="854.0" />
+      <point x="-14.0" y="27.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.OfficeModel" target="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase">
+      <point x="-81.33333333333331" y="-52.5" />
+      <point x="463.89949494949474" y="1488.0" />
+      <point x="549.1636503928165" y="1488.0" />
+      <point x="-63.375" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.User">
+      <point x="35.545454545454504" y="-76.5" />
+      <point x="997.4179433221095" y="3071.0" />
+      <point x="1382.732828282828" y="3071.0" />
+      <point x="0.0" y="232.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase" target="com.computedsynergy.hurtrade.sharedcomponents.db">
+      <point x="-56.33333333333334" y="-64.5" />
+      <point x="556.2053170594831" y="854.0" />
+      <point x="522.7119949494947" y="854.0" />
+      <point x="14.0" y="27.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="62.125" y="-761.5" />
+      <point x="2088.107828282828" y="1498.0" />
+      <point x="2111.732828282828" y="1498.0" />
+      <point x="2111.732828282828" y="544.0" />
+      <point x="640.6119949494948" y="544.0" />
+      <point x="65.40000000000009" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.OfficeModel" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.Office">
+      <point x="81.33333333333337" y="-52.5" />
+      <point x="626.5661616161615" y="1498.0" />
+      <point x="707.5386503928165" y="1498.0" />
+      <point x="707.5386503928165" y="844.0" />
+      <point x="1014.4828282828281" y="844.0" />
+      <point x="-80.625" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.models.impl.OfficeModel">
+      <point x="-106.63636363636374" y="-76.5" />
+      <point x="855.2361251402913" y="3091.0" />
+      <point x="606.2328282828281" y="3091.0" />
+      <point x="61.0" y="52.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil">
+      <point x="71.09090909090912" y="-76.5" />
+      <point x="1032.9633978675643" y="3081.0" />
+      <point x="2025.982828282828" y="3081.0" />
+      <point x="0.0" y="761.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.models.impl.UserModel">
+      <point x="-35.545454545454504" y="-76.5" />
+      <point x="926.3270342312005" y="3111.0" />
+      <point x="910.7328282828281" y="3111.0" />
+      <point x="74.5" y="88.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.UserModel" target="com.computedsynergy.hurtrade.sharedcomponents.models.pojos.User">
+      <point x="99.33333333333337" y="-88.5" />
+      <point x="935.5661616161615" y="1498.0" />
+      <point x="1131.732828282828" y="1498.0" />
+      <point x="-251.0" y="232.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.webauth.Webauth" target="com.computedsynergy.hurtrade.sharedcomponents.util.Constants">
+      <point x="106.63636363636363" y="-76.5" />
+      <point x="1068.5088524130188" y="3091.0" />
+      <point x="2413.232828282828" y="3091.0" />
+      <point x="96.99999999999989" y="292.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.util.RedisUtil" target="com.computedsynergy.hurtrade.sharedcomponents.util.Constants">
+      <point x="186.375" y="-761.5" />
+      <point x="2212.357828282828" y="1498.0" />
+      <point x="2219.232828282828" y="1498.0" />
+      <point x="-97.0" y="292.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpConnectionFactory">
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="125.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.262409200968523" x="1721.0" y="1642.0" />
+  <SelectedNodes>
+    <node>com.computedsynergy.hurtrade.webauth.Webauth</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

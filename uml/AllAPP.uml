@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.computedsynergy.hurtrade.hurcpu.HurCpu</OriginalElement>
+  <nodes>
+    <node x="310.75" y="989.0">com.computedsynergy.hurtrade.sharedcomponents.amqp.CustomDefaultConsumer</node>
+    <node x="0.0" y="1265.0">com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.BackOfficeRequestConsumer</node>
+    <node x="1017.0" y="285.0">com.computedsynergy.hurtrade.hurcpu.cpu.Tasks.ClientAccountTask</node>
+    <node x="1122.0" y="989.0">com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions</node>
+    <node x="1054.5" y="0.0">com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase</node>
+    <node x="2039.0" y="989.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeResponse</node>
+    <node x="571.0" y="1265.0">com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer</node>
+    <node x="2348.0" y="466.0">com.computedsynergy.hurtrade.websocket.WebSocket</node>
+    <node x="251.0" y="1975.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.SourceQuote</node>
+    <node x="392.0" y="586.5">com.computedsynergy.hurtrade.hurcpu.cpu.BackOfficeRequestProcessor</node>
+    <node x="2307.0" y="1680.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.updates.BackofficeUpdate</node>
+    <node x="1453.0" y="1680.0">com.computedsynergy.hurtrade.webauth.Webauth</node>
+    <node x="1494.0" y="989.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.trade.TradeRequest</node>
+    <node x="0.0" y="477.5">com.computedsynergy.hurtrade.collectors.RabbitMqStats</node>
+    <node x="1504.0" y="562.0">com.computedsynergy.hurtrade.hurcpu.cpu.AuthRequestProcessor</node>
+    <node x="518.0" y="1975.0">com.computedsynergy.hurtrade.sharedcomponents.charting.CandleStickChartingDataProvider</node>
+    <node x="0.0" y="1680.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.Quote</node>
+    <node x="0.0" y="1975.0">com.computedsynergy.hurtrade.hurcpu.HurCpu</node>
+    <node x="573.0" y="1680.0">com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpConnectionFactory</node>
+    <node x="1994.0" y="562.0">com.computedsynergy.hurtrade.hurcpu.bootstrap.Bootstrap</node>
+    <node x="1889.0" y="1680.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.updates.ClientUpdate</node>
+    <node x="933.0" y="1680.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.charting.CandleStick</node>
+    <node x="1157.0" y="1975.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.QuoteList</node>
+    <node x="984.0" y="1975.0">com.computedsynergy.hurtrade.sharedcomponents.models.impl</node>
+    <node x="668.0" y="405.5">com.computedsynergy.hurtrade.hurcpu.cpu.Tasks.OfficePositionsDispatchTask</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.BackOfficeRequestProcessor" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-28.0" />
+      <point x="520.0" y="255.0" />
+      <point x="1138.5" y="255.0" />
+      <point x="-112.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.bootstrap.Bootstrap" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-52.5" />
+      <point x="2161.0" y="255.0" />
+      <point x="1362.5" y="255.0" />
+      <point x="112.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.BackOfficeRequestConsumer" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.CustomDefaultConsumer">
+      <point x="0.0" y="-185.0" />
+      <point x="275.5" y="1240.0" />
+      <point x="430.25" y="1240.0" />
+      <point x="-119.5" y="113.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.Tasks.ClientAccountTask" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-329.5" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-148.5" />
+      <point x="2545.5" y="245.0" />
+      <point x="1418.5" y="245.0" />
+      <point x="168.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.collectors.RabbitMqStats" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-137.0" />
+      <point x="186.0" y="245.0" />
+      <point x="1082.5" y="245.0" />
+      <point x="-168.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.RequestConsumers.ClientRequestConsumer" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.CustomDefaultConsumer">
+      <point x="0.0" y="-185.0" />
+      <point x="824.0" y="1240.0" />
+      <point x="669.25" y="1240.0" />
+      <point x="119.5" y="113.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.AuthRequestProcessor" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-52.5" />
+      <point x="1739.0" y="265.0" />
+      <point x="1306.5" y="265.0" />
+      <point x="56.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.hurcpu.cpu.Tasks.OfficePositionsDispatchTask" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="0.0" y="-209.0" />
+      <point x="832.5" y="265.0" />
+      <point x="1194.5" y="265.0" />
+      <point x="-56.0" y="112.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8751507457949859" x="789.9483277569678" y="1666.9949518372825" />
+  <SelectedNodes>
+    <node>com.computedsynergy.hurtrade.hurcpu.HurCpu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.computedsynergy.hurtrade.websocket.WebSocket</OriginalElement>
+  <nodes>
+    <node x="58.220588235294144" y="404.0">com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions</node>
+    <node x="664.6895424836601" y="0.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.Quote</node>
+    <node x="406.22058823529414" y="548.5">com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase</node>
+    <node x="0.0" y="1335.0">com.computedsynergy.hurtrade.sharedcomponents.models.impl.QuoteModel</node>
+    <node x="55.470588235294144" y="1072.0">com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase</node>
+    <node x="818.2205882352941" y="620.5">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.SourceQuote</node>
+    <node x="922.0964052287582" y="300.0">com.computedsynergy.hurtrade.sharedcomponents.dataexchange.QuoteList</node>
+    <node x="663.1617647058823" y="988.0">com.computedsynergy.hurtrade.websocket.WebSocket</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="0.0" y="-64.5" />
+      <point x="-81.75" y="257.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.QuoteList">
+      <point x="87.77777777777794" y="-148.5" />
+      <point x="948.4395424836603" y="948.0" />
+      <point x="1050.7205882352941" y="948.0" />
+      <point x="1050.7205882352941" y="384.0" />
+      <point x="997.0964052287582" y="384.0" />
+      <point x="15.0" y="27.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.Quote">
+      <point x="175.5555555555558" y="-148.5" />
+      <point x="1036.217320261438" y="968.0" />
+      <point x="1079.9705882352941" y="968.0" />
+      <point x="1079.9705882352941" y="275.0" />
+      <point x="994.6895424836601" y="275.0" />
+      <point x="66.0" y="125.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.SourceQuote" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.QuoteList">
+      <point x="55.5" y="-40.5" />
+      <point x="984.7205882352941" y="384.0" />
+      <point x="967.0964052287582" y="384.0" />
+      <point x="-15.0" y="27.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.QuoteModel" target="com.computedsynergy.hurtrade.sharedcomponents.models.impl.ModelBase">
+      <point x="-154.0" y="-52.0" />
+      <point x="77.0" y="1310.0" />
+      <point x="97.72058823529414" y="1310.0" />
+      <point x="-42.25" y="64.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.SourceQuote">
+      <point x="1.1368683772161603E-13" y="-148.5" />
+      <point x="860.6617647058824" y="968.0" />
+      <point x="873.7205882352941" y="968.0" />
+      <point x="-55.5" y="40.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.QuoteList" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.Quote">
+      <point x="0.0" y="-27.0" />
+      <point x="982.0964052287582" y="275.0" />
+      <point x="862.6895424836601" y="275.0" />
+      <point x="-66.0" y="125.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.amqp.AmqpBase">
+      <point x="-43.8888888888888" y="-148.5" />
+      <point x="816.7728758169935" y="938.0" />
+      <point x="700.2205882352941" y="938.0" />
+      <point x="98.0" y="112.5" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.sharedcomponents.models.impl.QuoteModel" target="com.computedsynergy.hurtrade.sharedcomponents.dataexchange.Quote">
+      <point x="154.0" y="-52.0" />
+      <point x="385.0" y="1310.0" />
+      <point x="1090.9705882352941" y="1310.0" />
+      <point x="1090.9705882352941" y="275.0" />
+      <point x="1126.6895424836603" y="275.0" />
+      <point x="198.00000000000009" y="125.0" />
+    </edge>
+    <edge source="com.computedsynergy.hurtrade.websocket.WebSocket" target="com.computedsynergy.hurtrade.sharedcomponents.commandline.CommandLineOptions">
+      <point x="-175.55555555555543" y="-148.5" />
+      <point x="685.1062091503269" y="968.0" />
+      <point x="303.47058823529414" y="968.0" />
+      <point x="81.75" y="257.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5942426319396847" x="596.5" y="719.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
